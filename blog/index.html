@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="../style.css" rel="stylesheet">
+    <title>Hello, world!</title>
+
+    <script src="https://kit.fontawesome.com/666071db77.js" crossorigin="anonymous"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg_white fw_medium fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">PLS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <div class="container margin_banner">
+            <div class="row mt-sm-5">
+                <div class="col-12 mt-sm-5">
+                    <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner text-center">
+                          <div class="carousel-item active">
+                            <a href="https://rollercoin.com/?r=ksh0w3w5" target="_blank">
+                              <img src="../images/wegodev-banner.png" class="d-inline images_banner" alt="wegodev (sekolah programmer)">
+                            </a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="https://rollercoin.com/?r=ksh0w3w5" target="_blank">
+                              <img src="//rollercoin.com/static/img/public_img/gen2/w970h250.png" class="d-inline images_banner" alt="rollercoin">
+                            </a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="https://cryptotabbrowser.com/landing/57/26596226" target="_blank">
+                              <img src="https://cdn.cryptobrowser.store/media/pb/1239/6dff4aabd26a4a2fbdbe2befed00eec1.png" class="d-inline images_banner" alt="cryptotab browser for pc">
+                            </a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="https://cryptotabbrowser.com/landing/48/26596226" target="_blank">
+                              <img src="https://cdn.cryptobrowser.store/media/pb/1236/03fdf00f827747d2817b2165a92ccd9b.png" class="d-inline images_banner" alt="cryptotab browser for mobile">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row text-center d-flex align-items-center justify-content-center">
+              <div class="col-12">
+                <h1>All Posts</h1>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 d-grid gap-2 d-flex flex-wrap justify-content-center" id="btnFilter">
+                <button type="button" data-target="all" class="btn btn-sm btn_filter_selected">All</button>
+                <button type="button" data-target="myJourney" class="btn btn_filter btn-sm">MY JOURNEY</button>
+                <button type="button" data-target="technology" class="btn btn_filter btn-sm">TECHNOLOGY</button>
+                <button type="button" data-target="hardware" class="btn btn_filter btn-sm">HARDWARE</button>
+                <button type="button" data-target="troubleshoot" class="btn btn_filter btn-sm">TROUBLESHOOT</button>
+                <button type="button" data-target="training" class="btn btn_filter btn-sm">TRAINING</button>
+              </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-4 g-4 mt-3">
+              <div class="col filterProject technology hardware troubleshoot">
+                <div class="card blog p-4">
+                  <a class="link_blogs" href="./how-do I-troubleshoot-keyboard-problems-on-my-laptop/index.html">
+                  <img src="../images/blog/keyboard-problem/keyboard-cover.png" class="card-img-top" alt="Kalbe Nutritionals">
+                  <div class="card-body px-0">
+                    <ul class="list-group list-group-horizontal mb-1">
+                      <li class="list_card me-1">HARDWARE</li>
+                      <li class="list_card mx-1">TECHNOLOGY</li>
+                      <li class="list_card ms-1">TROUBLESHOOT</li>
+                    </ul>
+                    <h5 class="card-title">How Do I Troubleshoot Keyboard Problems on My Laptop</h5>
+                    <p class="card-text"><small class="text-muted">30 September 2021</small></p>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col filterProject myJourney">
+                <div class="card blog p-4">
+                  <img src="../images/kalbe-nutritionals.jpeg" class="card-img-top" alt="Kalbe Nutritionals">
+                  <div class="card-body px-0">
+                    <ul class="list-group list-group-horizontal mb-1">
+                      <li class="list_card me-1">MY JOURNEY</li>
+                    </ul>
+                    <h5 class="card-title">My Second Internship at Kalbe Nutritionals</h5>
+                    <p class="card-text"><small class="text-muted">1 September 2021</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col filterProject myJourney">
+                <div class="card blog p-4">
+                  <img src="../images/KenalTiongkok-Team.jpg" class="card-img-top" alt="KenalTiongkok">
+                  <div class="card-body px-0">
+                    <ul class="list-group list-group-horizontal mb-1">
+                      <li class="list_card me-1">MY JOURNEY</li>
+                    </ul>
+                    <h5 class="card-title">My First Internship at KenalTiongkok</h5>
+                    <p class="card-text"><small class="text-muted">1 July 2021</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col filterProject myJourney">
+                <div class="card blog p-4">
+                  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1472&q=80" class="card-img-top" alt="Laptop in Desk">
+                  <div class="card-body px-0">
+                    <ul class="list-group list-group-horizontal mb-1">
+                      <li class="list_card me-1">MY JOURNEY</li>
+                    </ul>
+                    <h5 class="card-title">Starting My Career in Web Developer</h5>
+                    <p class="card-text"><small class="text-muted">1 January 2021</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col filterProject myJourney training">
+                <div class="card blog p-4">
+                  <img src="https://digitalent.kominfo.go.id/assets/@images/academy/vsga_blck.png" class="card-img-top" alt="Vocational School Graduation Academic Program">
+                  <div class="card-body px-0">
+                    <ul class="list-group list-group-horizontal mb-1">
+                      <li class="list_card me-1">MY JOURNEY</li>
+                      <li class="list_card mx-1">TRAINING</li>
+                    </ul>
+                    <h5 class="card-title">VSGA Online Training Web Developer by Digital Talent Scholarship</h5>
+                    <p class="card-text"><small class="text-muted">29 October 2020</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col filterProject myJourney training">
+                <div class="card blog h-100 p-4">
+                  <img src="https://digitalent.kominfo.go.id/assets/@images/academy/oa_blck.png" class="card-img-top" alt="Online Academic Program">
+                  <div class="card-body px-0">
+                    <ul class="list-group list-group-horizontal mb-1">
+                      <li class="list_card me-1">MY JOURNEY</li>
+                      <li class="list_card mx-1">TRAINING</li>
+                    </ul>
+                    <h5 class="card-title">OA Training Web Developer by Digital Talent Scholarship</h5>
+                    <p class="card-text"><small class="text-muted">1 August 2020</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col filterProject myJourney training">
+                <div class="card blog h-100 p-4">
+                  <img src="../images/vsga-event-python.jpg" class="card-img-top" alt="All Participant Event VSGA Digital Talent Scholarship">
+                  <div class="card-body px-0">
+                    <ul class="list-group list-group-horizontal mb-1">
+                      <li class="list_card me-1">MY JOURNEY</li>
+                      <li class="list_card mx-1">TRAINING</li>
+                    </ul>
+                    <h5 class="card-title">Training Programming Python by Digital Talent Scholarship</h5>
+                    <p class="card-text"><small class="text-muted">15 November 2019</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col filterProject myJourney training">
+                <div class="card blog h-100 p-4">
+                  <img src="../images/event-bpptik.jpg" class="card-img-top" alt="SKKNI Web Developer at BPPTIK">
+                  <div class="card-body px-0">
+                    <ul class="list-group list-group-horizontal mb-1">
+                      <li class="list_card me-1">MY JOURNEY</li>
+                      <li class="list_card mx-1">TRAINING</li>
+                    </ul>
+                    <h5 class="card-title">Training Web Developer at BPPTIK</h5>
+                    <p class="card-text"><small class="text-muted">24 August 2019</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col filterProject myJourney">
+                <div class="card blog h-100 p-4">
+                  <img src="../images/lippo-cikarang-team.jpg" class="card-img-top" alt="Lippo Cikarang Team TDM">
+                  <div class="card-body px-0">
+                    <ul class="list-group list-group-horizontal mb-1">
+                      <li class="list_card me-1">MY JOURNEY</li>
+                    </ul>
+                    <h5 class="card-title">My First Job at Lippo Cikarang</h5>
+                    <p class="card-text"><small class="text-muted">20 July 2019</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </main>
+
+    <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="text-muted">&copy; 2021 Paulinus Lambert Subiantoro</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-linkedin"></i><use xlink:href="#linkedin"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-github-square"></i><use xlink:href="#github"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-codepen"></i><use xlink:href="#codepen"/></svg></a></li>
+      </ul>
+    </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="../scripts.js"></script>
+  </body>
+</html>
